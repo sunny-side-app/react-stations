@@ -1,0 +1,24 @@
+.App {
+  background-color: white;
+}
+/* headerタグのボックスだけ異なる色にする */
+.Header {
+  background-color: lightgray;
+}
+
+li {
+  list-style: none;
+  float: left;
+  margin: 0px 100px;
+}
+
+/* .Description {
+  clear: right;
+  background-color: aqua;
+} */
+
+/* .AnimalImg {
+  float: right;
+  background-color: blueviolet;
+  width: 460px;
+} */
