@@ -4,6 +4,9 @@ import { useState } from 'react'
 
 import { DogImage } from './DogImage'
 
+// componentの分割について：
+// https://ja.reactjs.org/docs/components-and-props.html
+
 export const Description = () => {
   const INITIAL_URL =
     'https://images.dog.ceo/breeds/terrier-dandie/n02096437_1641.jpg'

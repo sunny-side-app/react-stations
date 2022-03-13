@@ -5,6 +5,7 @@ import { useState } from 'react'
 import './App.css'
 
 import { Description } from './Description'
+import { DogListContainer } from './DogListContainer'
 import { Header } from './Header'
 
 /**
@@ -16,7 +17,8 @@ export const App = () => {
   return (
     <div className="App">
       <Header />
-      <Description />
+      {/* <Description /> */}
+      <DogListContainer />
     </div>
   )
 }
