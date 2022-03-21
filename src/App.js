@@ -17,7 +17,7 @@ export const App = () => {
   return (
     <div className="App">
       <Header />
-      {/* <Description /> */}
+      <Description />
       <DogListContainer />
     </div>
   )
